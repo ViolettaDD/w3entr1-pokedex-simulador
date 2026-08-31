@@ -1,13 +1,12 @@
 {
-  "name": "pokedex",
+  "name": "pokedex-ts",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Migracion a TypeScript del Pokedex",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "dev": "tsc && node dist/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
 }
